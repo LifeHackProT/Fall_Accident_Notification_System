@@ -13,3 +13,9 @@ using IMU sensor
     The number of 100 cases is output. 
     The frequency of each feature is output and forward selection is performed from the most frequent to the smallest number until optimal accuracy is achieved.
     We getting a 15
+4. Decision Tree
+  - Reason for use: Simple mechanism, high accuracy and fast speed
+  - Learning data received from MatLab
+  - In real time, data received from Arduino is used as test data to determine whether it is a fall or ADL based on what has been learned
+
+=> Transmit information by connecting with emergency alarm application
